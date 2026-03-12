@@ -1,4 +1,3 @@
-
 # 🤖 Multi-Agent Content Team
 
 AI-powered content creation system with debate, research, writing, and editing agents.
@@ -20,22 +19,20 @@ AI-powered content creation system with debate, research, writing, and editing a
 - **Gradio** - Web interface
 - **Python 3.11**
 
+## How It Works
+
+1. **Debate Agent** analyzes the topic from multiple angles
+2. **Research Agent** searches the web using Tavily API
+3. **Writer Agent** creates SEO-optimized content
+4. **Editor Agent** polishes the final article
+5. Download as Markdown!
+
 ## Setup
 
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Create `.env` file with:
-```
-   OPENAI_API_KEY=your_key_here
-   TAVILY_API_KEY=your_key_here
-```
-4. Run: `python app.py`
+Required environment variables:
+- `OPENAI_API_KEY` - Your OpenAI API key
+- `TAVILY_API_KEY` - Your Tavily API key
 
-## Live Demo
-
-[Try it on HuggingFace Spaces](https://huggingface.co/spaces/YOUR_USERNAME/multi-agent-content-team)
-
----
 
 Built ❤️ by Ajay Kumar Sathri
 
