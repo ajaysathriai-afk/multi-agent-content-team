@@ -1,4 +1,4 @@
-gradio>=4.36.0
+gradio==4.16.0
 crewai==0.11.0
 langchain==0.1.10
 langchain-openai==0.0.2
